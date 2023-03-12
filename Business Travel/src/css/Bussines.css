@@ -1,0 +1,586 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(212, 209, 209);
+}
+#container1 {
+  color: white;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+
+#container1 .navigasi {
+  display: flex;
+  border: 2px black solid;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+  background-color: black;
+}
+.nav1 {
+  margin-left: 3vw;
+  display: flex;
+  justify-content: space-around;
+}
+.nav1 i {
+  color: orange;
+  margin: 0 10px;
+}
+.nav2 {
+  padding: 2vh;
+  margin-left: -13vw;
+}
+.nav2 ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 -30px;
+}
+.nav2 ul li {
+  list-style-type: none;
+  margin: 0 20px;
+}
+.nav2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.nav3 {
+  padding-right: 1vw;
+}
+.nav3 ul {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 20px;
+}
+.nav3 ul li {
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10px;
+}
+.nav3 ul li button {
+  width: 120px;
+  height: 35px;
+  background-color: black;
+  border: 1px white solid;
+  border-radius: 0.5rem;
+}
+.nav3 ul li button:hover {
+  background-color: white;
+}
+.nav3 ul li button h4 {
+  color: white;
+}
+.nav3 ul li button h4:hover {
+  color: black;
+}
+.nav3 ul li:nth-child(3) {
+  display: none;
+}
+#container2 {
+  width: 40vw;
+  margin-left: 5vw;
+  margin-top: 10vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.isi .content1 a button {
+  width: 200px;
+  height: 30px;
+  border-radius: 10rem;
+  background-color: rgb(212, 209, 209);
+}
+.content2 h1 {
+  margin-top: 3vh;
+  font-size: 55px;
+}
+.content3 p {
+  margin-top: 5vh;
+}
+.content3 p a {
+  color: black;
+  font-weight: bold;
+}
+.content4 button {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  border-radius: 2rem;
+  background-color: black;
+  color: white;
+  margin-top: 8vh;
+}
+.content4 button h3 {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.content4 button i {
+  padding-left: 70px;
+  padding-top: 15px;
+}
+.content4 button:hover {
+  background-color: white;
+  color: black;
+}
+.box {
+  margin-top: 7vh;
+  display: flex;
+  width: 50vw;
+}
+.box1 {
+  width: 18vw;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+.box1 h1 {
+  margin-top: 2vh;
+  font-size: 2rem;
+}
+.box1 p {
+  margin-top: 1vh;
+}
+.box1 p u {
+  font-weight: bold;
+}
+.box1:nth-child(2) {
+  margin-left: 3vw;
+}
+.isi-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.isi-1 i {
+  font-size: 1.5rem;
+}
+.isi-1 p {
+  height: 0;
+  width: 15.5vw;
+  border: 1px black solid;
+}
+#container3 {
+  width: 50vw;
+  margin-left: 50vw;
+  position: relative;
+  margin-top: -25vh;
+}
+#container3 .content-kanan .gariskeatas {
+  width: 70px;
+  position: absolute;
+  border: 1px black solid;
+  margin-top: -12vh;
+  margin-left: -2.4vw;
+}
+#container3 .content-kanan .gariskebawah {
+  height: 70px;
+  position: absolute;
+  border: 1px black solid;
+  margin-top: -18vh;
+}
+.content-kanan {
+  position: absolute;
+  top: -64vh;
+}
+.atas {
+  background: url(../../resource/img/Pesawat1.jpeg);
+  background-size: cover;
+  height: 35vh;
+  width: 19vw;
+  border-radius: 1rem;
+  margin-top: -11vh;
+  margin-left: 0.7vw;
+}
+
+.atas .ataskiri li {
+  list-style-type: none;
+}
+.atas .ataskiri h5 {
+  padding-top: 3vh;
+  padding-left: 1vw;
+  color: white;
+}
+.atas .ataskiri h4 {
+  padding-top: 18vh;
+  width: 7vw;
+  color: white;
+  padding-left: 1vw;
+  font-size: 22px;
+}
+.atas .ataskanan {
+  padding-left: 17vw;
+  margin-top: -16vh;
+  color: white;
+  display: flex;
+}
+.atas .ataskanan .panah {
+  position: absolute;
+  top: 13vh;
+  right: 2vw;
+  border: 2px white solid;
+  border-radius: 10rem;
+  padding: 8px 10px;
+}
+.atas .ataskanan .titik3 {
+  position: absolute;
+  bottom: 65vh;
+  right: 2vw;
+  border-radius: 2px white solid;
+}
+.bawah {
+  background-color: black;
+  height: 35vh;
+  width: 19vw;
+  border-radius: 1rem;
+  margin-top: 1vh;
+  margin-left: 0.8vw;
+  color: white;
+  position: relative;
+  background: rgb(119, 121, 131);
+  background: radial-gradient(
+    circle,
+    rgba(119, 121, 131, 1) 0%,
+    rgba(14, 13, 14, 1) 50%
+  );
+}
+.bawah .isiatas {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.bawah .isiatas h4 {
+  font-size: 25px;
+}
+.bawah .isiatas i {
+  font-size: 15px;
+  padding-top: 1vh;
+}
+.bawah .titikgaris {
+  position: absolute;
+  text-align: center;
+  left: 1vw;
+  text-align: center;
+  width: 17vw;
+  border-top: 1px white dotted;
+}
+.kontenbawah {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  padding-top: 10vh;
+}
+.garismenubawah {
+  width: 17vw;
+  border-top: 1px white dotted;
+  position: absolute;
+  left: 1vw;
+}
+.kontenbawah2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  padding-top: 2vh;
+}
+.contentkanan2 {
+  position: absolute;
+  margin-left: 20vw;
+  top: -92vh;
+}
+.contentkanan2 .bor1 {
+  border: 2px black solid;
+  width: 19vw;
+  height: 35vh;
+  border-radius: 1rem;
+  background-color: black;
+}
+
+.contentkanan2 .above img {
+  position: absolute;
+  border-radius: 10rem;
+  height: 15vh;
+  width: 7vw;
+  border-radius: 20rem;
+  top: 10vh;
+  left: 5vw;
+}
+.contentkanan2 .bor1 .boratas {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 1vw;
+}
+.contentkanan2 .bor1 .borbawah {
+  position: absolute;
+  color: white;
+  left: 1vw;
+  top: 30vh;
+  font-size: 15px;
+}
+.bone {
+  background-color: black;
+  width: 19vw;
+  height: 20vh;
+  border-radius: 1rem;
+  margin-top: 1vh;
+  color: white;
+}
+.bone1 h2 {
+  padding: 1vw;
+}
+.bone2 {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+}
+.boone {
+  background-color: gray;
+  width: 19vw;
+  height: 20vh;
+  border-radius: 1rem;
+  margin-top: 1vh;
+}
+.boone1 h2 {
+  padding: 1vw;
+}
+.boone2 {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+}
+.gris {
+  height: 25vh;
+  border-right: 1px white solid;
+  position: absolute;
+  bottom: 40vh;
+  left: 9.5vw;
+}
+.blat {
+  position: absolute;
+  border: 2px white solid;
+  height: 3vh;
+  width: 1.3vw;
+  border-radius: 10rem;
+  bottom: 25vh;
+  left: -0.6vw;
+}
+.blat1 {
+  position: absolute;
+  border: 2px white solid;
+  height: 3vh;
+  width: 1.3vw;
+  border-radius: 10rem;
+  top: 25vh;
+  left: -0.5rem;
+}
+.barcode {
+  background-color: white;
+  height: 30vh;
+  width: 19vw;
+  border-radius: 1rem;
+  padding: 2vh;
+  margin-top: 1vh;
+}
+.fly {
+  border-bottom: 2px black dotted;
+  padding: 2vh;
+}
+.fly p {
+  margin-left: -1vw;
+  font-weight: bold;
+}
+.tanggal {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4vh;
+}
+.qr img {
+  position: absolute;
+  width: 25vw;
+  height: 11vh;
+  right: -2vw;
+}
+@media (max-width: 600px) {
+  nav {
+    width: 95vw;
+  }
+  nav .navigasi {
+    height: 7vh;
+  }
+  nav .nav2 {
+    display: none;
+  }
+  nav .nav3 {
+    display: none;
+  }
+  nav .navigasi .nav3 ul li:nth-child(3) i {
+    color: white;
+    display: block;
+  }
+  section .box {
+    flex-direction: column;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  main .content-kanan {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100vh;
+  }
+  main .plus {
+    margin-left: -45vw;
+  }
+  main .plus .gariskebawah {
+    top: 2vh;
+  }
+  main .atas {
+    width: 85vw;
+    height: 25vh;
+    margin-left: -42vw;
+  }
+  main .atas .ataskiri li h5 {
+    margin-left: 1vw;
+    margin-top: -1vh;
+  }
+  main .ataskanan .panah {
+    margin-top: -5vh;
+    margin-left: -4vw;
+  }
+  main .atas .ataskanan .titik3 {
+    position: absolute;
+    top: -9vh;
+    right: 6vw;
+  }
+  main .atas .ataskiri li h4 {
+    margin-top: -6vh;
+    margin-left: 1vw;
+  }
+  main .bawah {
+    width: 85vw;
+    height: 25vh;
+    margin-left: -42vw;
+  }
+  main .contentkanan2 {
+    margin-top: 160vh;
+    height: 25vh;
+    width: 85vw;
+    position: relative;
+  }
+  main .contentkanan2 .above {
+    height: 30vw;
+    width: 15vh;
+    margin-left: -40vw;
+    margin-top: -2vh;
+    padding: 1vh;
+  }
+  main .borbawah h3 {
+    position: absolute;
+    bottom: 5vh;
+    right: 40vw;
+    width: 20vw;
+  }
+  main .contentkanan2 .bor1 {
+    height: 25vh;
+    width: 85vw;
+    margin-left: -62vw;
+    margin-top: 9vh;
+  }
+  main .contentkanan2 .bor1 img {
+    left: -30vw;
+    top: 15vh;
+    width: 20vw;
+    height: 10vh;
+  }
+  main .contentkanan2 .boratas {
+    margin-top: -12vh;
+  }
+  main .contentkanan2 .borbawah {
+    margin-top: 6vh;
+  }
+  main .contentkanan2 .bor2 .bor2atas .bone {
+    height: 25vh;
+    width: 85vw;
+    margin-left: -62vw;
+  }
+  main .contentkanan2 .bor2 .bor2atas .boone {
+    height: 25vh;
+    width: 85vw;
+    margin-left: -62vw;
+  }
+  main .contentkanan2 .bor2 .bor2atas .bone .bone1 {
+    padding-top: 2vh;
+    padding-left: 2vw;
+  }
+  main .contentkanan2 .bor2 .bor2atas .bone .bone2 {
+    margin-top: 14vh;
+    margin-left: 2vw;
+  }
+  main .contentkanan2 .bor2 .bor2atas .boone .boone1 {
+    padding-top: 2vh;
+    padding-left: 2vw;
+  }
+  main .contentkanan2 .bor2 .bor2atas .boone .boone2 {
+    margin-top: 14vh;
+    margin-left: 2vw;
+  }
+  main .contentkanan2 .bor2 .bor2atas .gris {
+    top: 48vh;
+    left: -15vw;
+  }
+  main .contentkanan2 .bor2 .bor2atas .gris .blat {
+    width: 5vw;
+    left: -2vw;
+  }
+  main .contentkanan2 .bor2 .bor2atas .gris .blat1 {
+    width: 5vw;
+  }
+  main .barcode {
+    margin-top: 2vh;
+    height: 25vh;
+    width: 85vw;
+    margin-left: -62vw;
+  }
+  main .barcode .qr img {
+    left: -70vw;
+    width: 100vw;
+  }
+  section {
+    display: flex;
+    width: 95vh;
+  }
+  section .content3 p {
+    width: 80vw;
+  }
+  section .content4 button {
+    width: 90vw;
+  }
+  section .content4 button h3 {
+    justify-content: center;
+    align-items: center;
+  }
+  section .box {
+    display: flex;
+    flex-direction: column;
+  }
+  section .box .box1 {
+    width: 85vw;
+    height: 20vh;
+    margin-top: -3vh;
+    margin-left: 5vw;
+  }
+  section .box .box1:nth-child(2) {
+    margin-left: 5vw;
+    margin-top: -15vw;
+  }
+  section .box .box1 p {
+    width: 75vw;
+  }
+}

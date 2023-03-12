@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.skin {
+  height: 100vh;
+  width: 10vw;
+  background-color: #5c5c5f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.skin .logo h4 {
+  font-family: "Noto Sans KR", sans-serif;
+  margin-top: 8vh;
+}
+.skin .mouse {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.skin .mouse h3 {
+  transform: rotate(270deg);
+  opacity: 0.4;
+  margin-top: -40vh;
+}
+.skin .mouse .iconmouse {
+  width: 1.5vw;
+  height: 5vh;
+  border: 1px white solid;
+  border-radius: 0.5rem;
+  margin-left: 2vw;
+  margin-top: 7vh;
+}
+.skin .mouse .iconmouse .sret {
+  position: absolute;
+  height: 1vh;
+  left: 2.7vw;
+  width: 5vw;
+  border-left: 1px white solid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 2vw;
+}
+.skin .mouse .bulatan1 .bulat {
+  background-color: white;
+  width: 0.5vw;
+  height: 1vh;
+  border: 2px white solid;
+  border-radius: 10rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  margin-left: 2.4vw;
+}
+.bulat:nth-child(2) {
+  opacity: 0.6;
+}
+.bulat:nth-child(3) {
+  opacity: 0.5;
+}
+.bulat:nth-child(4) {
+  opacity: 0.3;
+}
+.bulat:nth-child(5) {
+  opacity: 0.2;
+}
+section {
+  background-color: rgb(33, 28, 41);
+  width: 89vw;
+  height: 100vh;
+  margin-left: 10vw;
+  margin-top: -100vh;
+}
+.middle .nav1 ul {
+  display: flex;
+  justify-content: space-around;
+  width: 35vw;
+  padding-top: 8vh;
+  padding-left: 4vw;
+}
+.middle .nav1 ul li {
+  list-style-type: none;
+}
+.middle .nav1 ul li a {
+  text-decoration: none;
+  color: grey;
+}
+.middle .nav1 ul li a:hover {
+  color: white;
+}
+.middle .img1 img {
+  height: 82.1vh;
+  width: 34vw;
+  margin-top: 7vh;
+}
+.middle2 {
+  margin-left: 45vw;
+  margin-top: -94vh;
+}
+.nav2 {
+  width: 15vw;
+  height: 6vh;
+  border: 2px white solid;
+  border-radius: 0.3rem;
+  background-color: white;
+  padding-left: 1vw;
+  position: relative;
+}
+.nav2 input {
+  width: 8vw;
+  height: 4vh;
+  outline: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding-top: 1.5vh;
+  border-right: 1px black solid;
+}
+.nav2 .shope i {
+  position: absolute;
+  color: black;
+  padding-left: 11vw;
+  top: 1vh;
+}
+.content-right {
+  color: white;
+  margin-top: 13vh;
+}
+.content-right h5 {
+  font-size: 20px;
+}
+.content-right h1 {
+  font-size: 55px;
+}
+.img2 img {
+  width: 20vw;
+  height: 38vh;
+}
+.nomor {
+  display: flex;
+  color: grey;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -5vw;
+  width: 23vw;
+  margin-top: 1vh;
+}
+.nomor h1 {
+  font-size: 20px;
+}
+.nomor .garis1 {
+  position: absolute;
+  width: 8vw;
+  border-top: 2px grey solid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.less1 {
+  margin-top: -3.5vh;
+  margin-left: 15vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.less1 i {
+  width: 4vw;
+  color: gray;
+}
+.less1 i:nth-child(1) {
+  font-size: 18px;
+}
+.less1 i:hover {
+  color: white;
+}
+#kanan {
+  display: flex;
+  margin-left: 61vw;
+  margin-top: -93vh;
+  width: 28vw;
+  height: 100vh;
+  background-color: #5c5c5f;
+  opacity: 0.5;
+}
+.righ1 {
+  padding-top: 3vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20vw;
+  height: 90vh;
+}
+.righ1 .atas1 img {
+  color: white;
+  width: 9vw;
+  height: 11vh;
+  margin-left: -2vw;
+  margin-top: 2vh;
+}
+
+#kanan .pesan i {
+  margin-left: -0.5vw;
+  color: white;
+  border: 2px grey solid;
+  background-color: rgb(120, 119, 126);
+  border-radius: 10rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 3vw;
+  height: 6vh;
+}
+#kanan .tengah1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#kanan .tengah1 ul {
+  display: flex;
+  width: 30vw;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  transform: rotate(270deg);
+  margin-left: -14.5vw;
+  margin-top: -4vh;
+}
+#kanan .tengah1 ul li a {
+  display: flex;
+  text-decoration: none;
+  color: grey;
+}
+#kanan .tengah1 ul li a:hover {
+  color: white;
+}

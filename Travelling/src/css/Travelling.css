@@ -1,0 +1,533 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header {
+  background-color: whitesmoke;
+}
+nav {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+.navigasi1 h1 {
+  color: brown;
+}
+.navigasi2 ul {
+  list-style-type: none;
+}
+.navigasi2 ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.navigasi2 ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.navigasi3 button {
+  background-color: forestgreen;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  border: white 3px solid;
+  padding: 12px 20px;
+  margin-top: 10px;
+}
+#isi-2 {
+  background-color: whitesmoke;
+  height: 68vh;
+}
+.container1 {
+  padding-left: 60px;
+  padding-top: 60px;
+}
+.content1 a {
+  list-style-type: none;
+  text-decoration: none;
+  color: green;
+}
+.content2 {
+  width: 50%;
+}
+.content3 {
+  display: flex;
+}
+.content3 button {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  border: white 3px solid;
+  font-family: sans-serif;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin-top: 10px;
+}
+.search-box {
+  background-color: goldenrod;
+  padding: 10px 25px;
+  border-radius: 10px 50px 50px 60px;
+  width: 250px;
+  height: 40px;
+  margin-top: 14px;
+  margin-left: 40px;
+}
+.search-box input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.search-box a {
+  border-radius: 50%;
+  color: black;
+}
+.gambar {
+  display: flex;
+  margin-left: 50%;
+  margin-top: -20%;
+}
+.gambar img {
+  width: 450px;
+  height: 300px;
+}
+.footer {
+  height: 40vh;
+  display: flex;
+  padding-left: 2%;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.dua {
+  background-color: #efededbe;
+  height: 100vh;
+}
+.logo {
+  margin-top: 3vh;
+  margin-left: 8vw;
+}
+.logo ul {
+  width: 84vw;
+  height: 10vh;
+  padding-top: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo ul li {
+  list-style-type: none;
+}
+.logo ul li img {
+  width: 12vw;
+  height: 8vh;
+}
+.judul-2 {
+  margin: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.judul-2 h3 {
+  color: #0ba876;
+  font-size: 26px;
+}
+.judul-2 img {
+  width: 20px;
+  margin-left: 40vh;
+  margin-top: -4vh;
+}
+.judul-2 h1 {
+  margin-top: 3vh;
+  font-size: 49px;
+  font-weight: bolder;
+}
+.destination {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.destination div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  padding: 8px;
+  background-color: white;
+  border: 2px whitesmoke solid;
+  border-radius: 0.5rem;
+}
+.destination img {
+  width: 260px;
+  height: 160px;
+  border-radius: 0.5rem;
+}
+.destination ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.destination ul li {
+  width: 150px;
+  list-style-type: none;
+  margin-top: 2.4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.destination ul li button {
+  margin-right: 0.3vw;
+  width: 100px;
+  height: 27px;
+  border: whitesmoke;
+  border-radius: 0.3rem;
+  background-color: #0ba876;
+  color: #f3f5f9;
+}
+.destination ul li p a {
+  margin-right: 3.8vw;
+}
+.destination ul li a {
+  text-decoration: none;
+  color: #febb28;
+}
+.destination h3 {
+  margin-left: 0.5vh;
+  margin-top: 2.3vh;
+}
+#ketiga {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+.tulisan-1 {
+  margin-top: 5vh;
+  padding-top: 10vh;
+}
+.tulisan-1 h3 {
+  color: green;
+  position: relative;
+  margin-left: 5vw;
+}
+.tulisan-1 img {
+  width: 15px;
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: -3vh;
+}
+.tulisan-1 h1 {
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+.tulisan-2 {
+  width: 40vw;
+  padding-left: 3vw;
+  margin-top: 4vh;
+}
+.tulisan-2 .oren {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  border-bottom: 2px #c5c4c4c3 solid;
+}
+.tulisan-2 .oren:hover {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  border-bottom: 2px white solid;
+}
+.tulisan-2 .oren i {
+  background-color: #febb28;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.tulisan-2 .oren h5 {
+  margin-top: 1vh;
+  margin-left: 1.5vw;
+  font-size: 16px;
+}
+.tulisan-2 .oren p {
+  font-size: 14px;
+  margin-top: 10vh;
+  margin-left: -7vw;
+  color: white;
+}
+.tulisan-2 .oren:hover p {
+  color: black;
+}
+.tulisan-2 .hijau {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  border-bottom: 2px #c5c4c4c3 solid;
+}
+.tulisan-2 .hijau:hover {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  border-bottom: 2px white solid;
+}
+.tulisan-2 .hijau i {
+  background-color: green;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.tulisan-2 .hijau h5 {
+  margin-top: 1vh;
+  margin-left: 1vw;
+  font-size: 16px;
+}
+.tulisan-2 .hijau p {
+  font-size: 14px;
+  margin-top: 10vh;
+  margin-left: -12vw;
+  color: white;
+}
+.tulisan-2 .hijau:hover p {
+  color: black;
+}
+.tulisan-2 .biru {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  border-bottom: 2px #c5c4c4c3 solid;
+}
+.tulisan-2 .biru:hover {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  border-bottom: 2px white solid;
+}
+.tulisan-2 .biru i {
+  background-color: blue;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.tulisan-2 .biru h5 {
+  margin-top: 1vh;
+  margin-left: 1.5vw;
+  font-size: 16px;
+}
+.tulisan-2 .biru p {
+  font-size: 14px;
+  margin-top: 10vh;
+  margin-left: -8.7vw;
+  color: white;
+}
+.tulisan-2 .biru:hover p {
+  color: black;
+}
+.kananfoto img {
+  margin-left: 50vw;
+  margin-top: -70vh;
+  width: 350px;
+  height: 500px;
+}
+#keempat {
+  width: 100vw;
+  height: 100vh;
+}
+.empat .atas {
+  padding-left: 5vw;
+}
+.empat .atas img {
+  width: 18px;
+  height: 15px;
+  position: absolute;
+  margin-left: 8vw;
+}
+.empat .atas h5 {
+  color: green;
+  position: relative;
+  font-size: 17px;
+  margin-top: 5vh;
+}
+.empat .atas h2 {
+  margin-top: 5vh;
+  font-size: 30px;
+}
+.middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.middle div {
+  display: flex;
+  flex-direction: column;
+  width: 19.5vw;
+  padding: 8px;
+  background-color: white;
+  border: 2px whitesmoke solid;
+  border-radius: 0.5rem;
+  height: 60vh;
+}
+.middle img {
+  display: flex;
+  width: 240px;
+  height: 160px;
+  border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.middle ul a {
+  text-decoration: none;
+}
+.middle ul li {
+  list-style-type: none;
+  display: flex;
+}
+.middle ul li i {
+  display: flex;
+  margin-left: 13vw;
+  font-size: 15px;
+  margin-top: -3vh;
+}
+.middle ul h3 {
+  margin-top: 7vh;
+}
+.middle ul h4 {
+  margin-top: 4vh;
+}
+.middle ul li h6 {
+  display: flex;
+  margin-left: 15vw;
+  margin-top: -3vh;
+}
+#kelima {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.atas-5 h3 {
+  margin-left: 50vw;
+}
+.atas-5 h1 {
+  padding-left: 38vw;
+}
+.lima .atas-5 img {
+  width: 25px;
+  margin-left: 48vw;
+  margin-top: -2vh;
+  position: absolute;
+}
+.gambar5 {
+  position: relative;
+}
+.lima .gambar5 img {
+  width: 460px;
+  height: 470px;
+  margin-left: 15vw;
+  margin-top: -85vh;
+}
+.lima .gambar5 .border {
+  border: 2px white solid;
+  border-radius: 2rem;
+  width: 340px;
+  height: 400px;
+  margin-left: 18vw;
+  margin-top: 15vh;
+  background-color: palevioletred;
+}
+.testiclient {
+  margin-left: 50vw;
+  margin-top: -50vh;
+  width: 40vw;
+  height: 50vh;
+  padding: 15px;
+  position: relative;
+}
+.garis {
+  height: 20vh;
+  width: 45vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-right: 3px rgb(223, 223, 223) solid;
+}
+.garis:nth-child(1) {
+  margin-top: -17vh;
+}
+.garis .testi {
+  margin-left: -160px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+.garis .testi:hover {
+  background-color: green;
+}
+.garis:nth-child(1) .testi {
+  margin-left: 1vw;
+}
+.garis:nth-child(3) .testi {
+  margin-left: 1vw;
+}
+.garis .testi i {
+  background-color: black;
+}
+
+.garis:hover {
+  border-right: 3px green solid;
+}
+.testi {
+  width: 40vw;
+}
+.bulat {
+  height: 20px;
+  width: 20px;
+  border: 5px rgb(223, 223, 223) solid;
+  border-radius: 50%;
+  position: absolute;
+  right: -11px;
+  bottom: 19vh;
+}
+.garis:hover .bulat {
+  border: 5px green solid;
+}
