@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  top: 0;
+  left: 0;
+}
+nav {
+  width: 100%;
+  background-color: rgb(77, 65, 65);
+}
+.nav1 ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 5px 0;
+  justify-content: space-around;
+}
+nav ul li button {
+  padding: 10px 16px;
+  color: white;
+  background-color: rgb(77, 65, 65);
+  border: 1px rgb(221, 215, 215) solid;
+  border-radius: 0.2rem;
+}
+nav ul li:nth-child(4) button {
+  padding: 10px 250px;
+}
+nav ul li button a {
+  color: white;
+}
+
+.foto1 {
+  background-image: url(../../resource/img/modelcewek.jpg);
+  background-size: cover;
+  width: 98%;
+  height: 350px;
+  padding-top: 90%;
+  margin: 10px 15px;
+}
+.foto1 h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.midmenu {
+  border-bottom: 2px grey solid;
+  width: 97%;
+  margin: 20px 20px;
+}
+.midmenu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  list-style-type: none;
+  margin: 0 0 5px 0;
+}
+.midmenu ul li a {
+  color: black;
+}
+
+#container3 {
+  display: flex;
+  margin: 10px 20px;
+  border-bottom: 2px black solid;
+  padding-bottom: 40px;
+}
+#container3 .contentkiri {
+  width: 50%;
+}
+.contentkiri p {
+  font-size: 30px;
+  width: 80%;
+}
+.contentkiri p a {
+  color: black;
+}
+#container3 .contentkanan {
+  width: 50%;
+}
+.borderbt {
+  display: flex;
+  border-bottom: 2px black solid;
+  border-top: 2px black solid;
+  width: 98%;
+  margin: 10px 0;
+  padding: 15px 0;
+  justify-content: space-between;
+}
+
+.bawahborder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px 0 0;
+}
+.isi {
+  margin-top: 30px;
+}
+.isi p a {
+  color: black;
+}
+#container4 {
+  margin: 0 0 0 10px;
+}
+#container4 .footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  display: flex;
+  margin: 12px;
+}
+.footerkiri {
+  display: flex;
+}
+.footerkiri p:nth-child(2) {
+  padding-left: 50px;
+}
+.footerkanan button {
+  padding: 3px;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul li button {
+    width: 100%;
+  }
+  nav ul li:nth-child(4) button {
+    display: none;
+  }
+  #container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  #container2 .foto1 {
+    width: 95%;
+    margin: 10px 10px;
+  }
+  #container2 .foto1 h1 {
+    margin-top: 140px;
+    margin-left: 100px;
+  }
+  .midmenu ul li:nth-child(1) p {
+    display: none;
+  }
+  .midmenu ul li:nth-child(2) a {
+    display: none;
+    left: 0;
+  }
+  .midmenu {
+    width: 87%;
+  }
+  .midmenu ul li:nth-child(3) a {
+    margin-left: -50%;
+  }
+  #container3 {
+    display: flex;
+    flex-direction: column;
+  }
+  #container3 .contentkiri p {
+    width: 150%;
+  }
+  #container3 .contentkanan {
+    width: 100%;
+  }
+  #container4 .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #container4 .footerkiri {
+    margin: 10px 0;
+  }
+  #container4 .footerkanan {
+    margin: 10px 0;
+  }
+}
