@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.sidebar {
+  margin: 10px;
+  width: 15%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 140px;
+  border-radius: 0.5rem;
+}
+.sidebar .logo h2 {
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.sidebar .name {
+  display: flex;
+  gap: 15px;
+  margin-top: -90px;
+}
+.sidebar .name img {
+  width: 40px;
+  height: 30px;
+  border-radius: 0.5rem;
+}
+.sidebar .name h4 {
+  margin-top: 5px;
+}
+.sidebar .sidebar1 {
+  margin-top: -50px;
+}
+.sidebar .sidebar1 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+  margin-top: -40px;
+}
+.sidebar .sidebar1 ul li {
+  list-style-type: none;
+  margin-left: -35px;
+}
+.sidebar .sidebar1 ul li i {
+  margin: 0 30px 0 0px;
+}
+.sidebar .sidebar1 ul li i:hover {
+  background-color: blue;
+  width: 25px;
+  height: 25px;
+  border: 1px blue solid;
+  justify-content: center;
+  border-radius: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar2 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.sidebar2 ul {
+  gap: 50px;
+  margin-top: -10px;
+}
+.sidebar2 ul li {
+  list-style-type: none;
+  margin-left: -35px;
+}
+.sidebar .sidebar2 ul li i {
+  margin: 0 30px 0 0px;
+}
+main {
+  display: flex;
+}
+.middle {
+  width: 55%;
+  height: 100%;
+  margin-left: 2%;
+}
+.search {
+  margin-top: 4%;
+  border-radius: 0.4rem;
+  background-color: white;
+  border: 2px white solid;
+  width: 100%;
+  height: 37px;
+}
+.search i {
+  margin: 7px 0 0 10px;
+}
+.mid1 {
+  display: flex;
+  gap: 10px;
+}
+.search input {
+  width: 70%;
+  border: none;
+  margin-left: 20px;
+}
+.shopping {
+  margin-top: 4%;
+  background-color: white;
+  border: 2px white solid;
+  width: 5%;
+  height: 37px;
+  border-radius: 0.4rem;
+}
+.shopping i {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.mid2 {
+  border: 2px white solid;
+  margin-top: 5%;
+  background-color: white;
+  display: flex;
+  border-radius: 0.9rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.mid2-1 {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.isi1 {
+  line-height: 25px;
+}
+.isi1 p {
+  color: grey;
+  font-size: small;
+}
+.isi1 h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.isi1 h3 {
+  margin-top: 2px;
+  color: rgb(82, 71, 71);
+}
+.isi2 button {
+  margin-top: 20px;
+}
+.isi2 button:nth-child(1) {
+  padding: 8px 20px;
+  color: white;
+  background-color: rgb(30, 30, 207);
+  border: none;
+  border-radius: 0.4rem;
+}
+.isi2 button:nth-child(2) {
+  padding: 8px 20px;
+  border: none;
+  font-weight: bold;
+}
+.drone1 img {
+  width: 350px;
+  height: 200px;
+  margin-left: 25px;
+}
+.Products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: larger;
+}
+.Products h5 {
+  color: grey;
+}
+.typeproducts {
+  display: flex;
+  gap: 10px;
+}
+.products {
+  margin-top: 30px;
+  border: 2px white solid;
+  background-color: white;
+  border-radius: 1rem;
+  width: 40%;
+  height: 40%;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.gambar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gambar img {
+  width: 200px;
+  height: 190px;
+  padding-top: 10px;
+  border-radius: 1rem;
+}
+.footer {
+  display: flex;
+  padding-left: 20px;
+}
+.footer .text h2 {
+  font-size: large;
+}
+.tambah i {
+  background-color: blue;
+  border: 2px blue solid;
+  border-radius: 1rem;
+  width: 30px;
+  height: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.right {
+  width: 25%;
+  height: 100%;
+  border: 2px white solid;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 10px;
+  padding-left: 10px;
+}
+.right .atas1 {
+  padding-top: 5px;
+  padding-left: 30px;
+  display: flex;
+  gap: 50px;
+}
+.atas1 .silang {
+  background-color: whitesmoke;
+  width: 30px;
+  height: 30px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+.atas1 h3 {
+  margin-top: 10px;
+}
+.atas2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.atas2 img {
+  width: 90%;
+  height: 30%;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.deret {
+  display: flex;
+  gap: 5px;
+  margin-top: 4%;
+  justify-content: center;
+  align-items: center;
+}
+.persegibulat {
+  width: 50px;
+  height: 10px;
+  border: 2px black solid;
+  border-radius: 1rem;
+  background-color: black;
+}
+.bulat {
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+  border-radius: 1rem;
+}
+.typedrone {
+  display: flex;
+  width: 95%;
+  height: 40px;
+  border: 2px white solid;
+  border-radius: 0.4rem;
+  background-color: whitesmoke;
+  margin-top: 10px;
+}
+.typedrone input {
+  margin: 0 5px 0 15px;
+}
+.typedrone p {
+  margin-top: 8px;
+}
+.Accessories {
+  margin-top: 15px;
+}
+.Accessories h2 {
+  font-size: larger;
+}
+.hardware {
+  display: flex;
+  border: 2px white solid;
+  border-radius: 0.5rem;
+  background-color: whitesmoke;
+  gap: 10px;
+  margin-top: 5px;
+}
+.hardware input {
+  margin-left: 15px;
+}
+.hardware img {
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.hardware .properties {
+  margin-top: 15px;
+}
+.last {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  gap: 20px;
+}
+.but button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 0.5rem;
+  background-color: rgb(19, 19, 168);
+  color: white;
+}
