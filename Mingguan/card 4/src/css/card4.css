@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: cadetblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.card {
+  width: 250px;
+  height: 320px;
+  border: 1px black solid;
+  padding: 20px;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.img img {
+  width: 30px;
+  height: 30px;
+}
+.teks p {
+  text-align: center;
+}
+.teks h5 {
+  padding-top: 30px;
+  text-align: center;
+}
+.but {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.but button:nth-child(1) {
+  border: 1px grey solid;
+  padding: 10px 13px;
+  background-color: green;
+  border-radius: 0.5rem;
+  color: white;
+}
+.but button:nth-child(1):hover {
+  background-color: white;
+  color: black;
+}
+.but button:nth-child(2) {
+  margin-top: 5px;
+  border: 1px grey solid;
+  padding: 10px 13px;
+  background-color: white;
+  border-radius: 0.5rem;
+  color: black;
+}
+.but button:nth-child(2):hover {
+  background-color: red;
+  color: white;
+}

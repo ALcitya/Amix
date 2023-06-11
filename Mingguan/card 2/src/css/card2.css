@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: chocolate;
+}
+main {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.card {
+  width: 250px;
+  height: 350px;
+  border: 0px black solid;
+  border-radius: 0.2rem;
+  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.card:hover {
+  transform: translateX(0.5rem);
+  transition: 2s;
+}
+.card .foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  width: 180px;
+  height: 180px;
+}
+.card .isi p {
+  font-size: 10px;
+  padding-top: 5px;
+}
+.warna {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.warna .gabung {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.warna .gabung .one {
+  height: 12px;
+  width: 12px;
+  border-radius: 1rem;
+  border: 1px black solid;
+}
+.warna .gabung .one:nth-child(2) {
+  background-color: orange;
+}
+.warna .gabung .one:nth-child(3) {
+  background-color: pink;
+}
+.warna .gabung .one:nth-child(4) {
+  background-color: red;
+}
+
+.but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+button {
+  padding: 7px 70px;
+  border: none;
+  border-radius: 1rem;
+  background: rgb(58, 93, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 93, 180, 1) 0%,
+    rgba(156, 29, 253, 1) 50%,
+    rgba(219, 69, 252, 1) 100%
+  );
+  color: white;
+}
+.but button:hover {
+  background-color: brown;
+}

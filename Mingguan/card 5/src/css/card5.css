@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.card5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+}
+.card {
+  height: 300px;
+  width: 210px;
+  border: 1px black solid;
+  border-radius: 0.5rem;
+  background-color: rgb(22, 9, 51);
+  color: white;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.img img {
+  width: 180px;
+  height: 120px;
+  border-radius: 0.5rem;
+}
+.isi {
+  margin-left: 8px;
+  margin-top: 11px;
+}
+.isi p {
+  font-size: 10px;
+}
+.garis {
+  border-bottom: 3px white dotted;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sosmed {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1;
+}
