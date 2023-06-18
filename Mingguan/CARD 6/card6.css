@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: darkgoldenrod;
+}
+.card6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.samp {
+  height: 300px;
+  width: 600px;
+  border: 0px black solid;
+  background: rgb(33, 90, 115);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 90, 115, 1) 0%,
+    rgba(31, 135, 149, 1) 50%,
+    rgba(87, 199, 215, 1) 100%
+  );
+  border-radius: 0.5rem;
+}
+.img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -150px;
+}
+.img img {
+  width: 275px;
+  height: 200px;
+}
+i {
+  margin-left: 2vw;
+  margin-top: 1vw;
+  color: white;
+}
+input {
+  margin-left: 2vw;
+  padding: 5px;
+  border-radius: 1rem;
+  border: none;
+  margin-top: 15px;
+}
+.isi {
+  width: 50%;
+  color: white;
+  margin-left: 2vw;
+}
+.isi h2 {
+  margin-top: 50px;
+}
+.isi p {
+  font-size: 10px;
+  margin-top: 5px;
+}
