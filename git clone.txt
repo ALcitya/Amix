@@ -1,0 +1,96 @@
+// Langkah pertama 
+git clone link ke yang mau di tarik
+
+// Folder terhubung dengan repo mana saja
+
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git remote -v 
+origin  https://github.com/gusamixk/vanilla.git (fetch)
+origin  https://github.com/gusamixk/vanilla.git (push)
+
+// Menghubungkan dengan repository yang difork atau diambil
+
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git remote add Aziz https://github.com/avnexcode/vanilla.git 
+
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git remote -v
+Aziz    https://github.com/avnexcode/vanilla.git (fetch)
+Aziz    https://github.com/avnexcode/vanilla.git (push)
+origin  https://github.com/gusamixk/vanilla.git (fetch)
+origin  https://github.com/gusamixk/vanilla.git (push)
+
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git log
+commit fa261456b91fbfa7dedc47efb01675fe86b6a7e2 (HEAD -> main, origin/main, origin/HEAD)
+Author: Muhammad Fauzi Nur Aziz <axnvee18@gmail.com>
+Date:   Tue Jun 6 10:03:44 2023 +0700
+
+    asd
+
+// Untuk menarik data dari repo utama 
+
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git fetch Aziz
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 280 bytes | 0 bytes/s, done.
+From https://github.com/avnexcode/vanilla
+ * [new branch]      main       -> Aziz/main
+
+// untuk mengecek posisi commit
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git log
+commit fa261456b91fbfa7dedc47efb01675fe86b6a7e2 (HEAD -> main, origin/main, origin/HEAD)
+Author: Muhammad Fauzi Nur Aziz <axnvee18@gmail.com>
+Date:   Tue Jun 6 10:03:44 2023 +0700
+
+    asd
+
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ alias graph="git log --all --oneline --decorate --graph"
+
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git log --all --decorate --oneline --graph (Untuk mengecek posisi Commit)
+* 169cd33 (Aziz/main) asd
+* fa26145 (HEAD -> main, origin/main, origin/HEAD) asd
+
+// Untuk menjadikan 1 folder dari repo utama dengan repo pribadi 
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git merge Aziz/main
+Updating fa26145..169cd33
+Fast-forward
+ 0. Variable/01.js | 1 +
+ 1 file changed, 1 insertion(+)
+
+// Untuk upload file atau folder 
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Writing objects: 100% (4/4), 300 bytes | 100.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gusamixk/vanilla.git
+   fa26145..169cd33  main -> main
+branch 'main' set up to track 'origin/main'.
+
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git log --all --decorate --oneline --graph
+* 169cd33 (HEAD -> main, origin/main, origin/HEAD, Aziz/main) asd
+* fa26145 asd
+
+GUS AMIX@DESKTOP-HVQM10H MINGW64 /f/github people/vanilla (main)
+$ git log --all --decorate --graph
+* commit 169cd3373cda30a8e5a58c74c0671d8bf1b5b159 (HEAD -> main, origin/main, origin/HEAD, Aziz/main)
+| Author: Muhammad Fauzi Nur Aziz <axnvee18@gmail.com>
+| Date:   Tue Jun 6 10:24:32 2023 +0700
+|
+|     asd
+|
+* commit fa261456b91fbfa7dedc47efb01675fe86b6a7e2
+  Author: Muhammad Fauzi Nur Aziz <axnvee18@gmail.com>
+  Date:   Tue Jun 6 10:03:44 2023 +0700
+
+      asd
+
