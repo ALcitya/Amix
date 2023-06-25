@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(163, 143, 26);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.headcontent {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+}
+main .card:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+p {
+  padding-top: 5px;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+}
+h6 {
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+}
+.imgpeople {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5rem;
+  border: 2px White solid;
+}
+.card {
+  background-color: chocolate;
+  width: 190px;
+  height: 270px;
+  border: 0px black solid;
+  border-radius: 1rem;
+  box-shadow: 3px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: burlywood;
+  box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+button:hover {
+  background-color: rgb(12, 12, 104);
+  color: white;
+}
+.icon i:hover {
+  color: rgb(28, 5, 49);
+}
+.icon {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

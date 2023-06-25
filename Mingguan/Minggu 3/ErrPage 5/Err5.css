@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/5928293_2953962.jpg);
+  background-size: cover;
+}
+.err {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15%;
+  gap: 20px;
+}
+h1 {
+  font-size: 70px;
+}
+.mid input {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+button {
+  border: 1px blueviolet solid;
+  padding: 5px 15px;
+  background-color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: blueviolet;
+  color: white;
+}

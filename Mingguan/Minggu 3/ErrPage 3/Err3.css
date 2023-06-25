@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/blue-smoky-art-abstract-background.jpg);
+  background-size: cover;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+.err {
+  border: 1px black solid;
+  width: 40%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.295);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  border-radius: 1rem;
+}
+.err:hover {
+  background-color: black;
+}
+.err p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+button {
+  padding: 5px 10px;
+  border-radius: 1rem;
+  border: 1px orange solid;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: orange;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/ai-chip-intelligence-technology-deep-learning.jpg);
+  background-size: cover;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  gap: 50px;
+}
+.isi2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+}
+.isi2 input {
+  padding: 5px 20px;
+  outline: none;
+  border-color: orange;
+  border-top-left-radius: 30px;
+  margin-top: 10px;
+}
+.isi2 .but1 button {
+  padding: 5.5px 10px;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+}
+.isi2 .but1 button:hover {
+  color: orange;
+  background-color: white;
+  border: 1px orange solid;
+}
+.isi2 .but2 button {
+  border: 1px orange solid;
+  padding: 5px 30px;
+  border-radius: 50px 0;
+  background-color: white;
+  color: orange;
+}
+.isi2 .but2 button:hover {
+  color: white;
+  background-color: orange;
+}
+.content-kanan img {
+  height: 400px;
+  width: 360px;
+}

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(33, 73, 115);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 73, 115, 1) 0%,
+    rgba(31, 101, 149, 1) 50%,
+    rgba(87, 199, 215, 1) 100%
+  );
+  font-family: "Noto Sans KR", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+}
+.zonk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px black solid;
+  height: 350px;
+  width: 50%;
+  background-color: white;
+  gap: 20px;
+}
+.isi1 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.isi1 p {
+  font-weight: bolder;
+}
+.isi2 {
+  gap: 20px;
+}
+.isi2 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.but {
+  gap: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.but a button {
+  padding: 5px 20px;
+  border: 1px rgb(81, 53, 241) solid;
+  border-radius: 1rem;
+  color: rgb(81, 53, 241);
+  background-color: white;
+  cursor: pointer;
+}
+.but a button:hover {
+  color: white;
+  background-color: rgb(81, 53, 241);
+}
