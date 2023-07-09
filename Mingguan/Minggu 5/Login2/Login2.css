@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1 {
+  margin-left: 12%;
+}
+form {
+  border: 1px purple solid;
+  padding: 80px 50px;
+  border-radius: 0.4rem;
+  box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.judul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: purple;
+}
+input {
+  padding: 8px 35px;
+  border-radius: 2rem;
+  border-color: purple;
+}
+.ic-inpt {
+  margin-top: 2vh;
+}
+.fot {
+  margin-top: 2vh;
+  display: flex;
+  gap: 40px;
+  font-size: 15px;
+}
+.left {
+  display: flex;
+  gap: 5px;
+}
+button {
+  margin-top: 2vh;
+  padding: 6px 95px;
+  border-radius: 2rem;
+  background-color: purple;
+  color: white;
+  border: none;
+}
+button:hover {
+  color: purple;
+  background-color: whitesmoke;
+  border: 1px purple solid;
+}
+.container2 {
+  background-color: purple;
+  width: 55%;
+  height: 100vh;
+  margin-left: 8%;
+}
+.container2 img {
+  margin-top: 50px;
+  margin-left: 70px;
+}

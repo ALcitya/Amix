@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/16326494_rm222-mind-16.jpg);
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3379b788;
+  width: 300px;
+  margin-top: 100px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-left: 40%;
+  border-top-left-radius: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}
+.login {
+  width: 100%;
+  padding: 10px;
+  background-color: #337ab7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.login:hover {
+  background-color: red;
+}
+.acount {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px black solid;
+  border-radius: 0.4rem;
+  margin-top: 5px;
+}
+.google:hover,
+.facebook:hover,
+.github:hover {
+  background-color: red;
+}
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px black solid;
+  border-radius: 0.4rem;
+  margin-top: 5px;
+}
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px black solid;
+  border-radius: 0.4rem;
+  margin-top: 5px;
+}

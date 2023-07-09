@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/lone.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.judul p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+}
+.judul h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.747);
+}
+.lock-ic {
+  display: flex;
+  border: none;
+  width: 300px;
+  height: 7vh;
+  border-radius: 2rem;
+  outline: none;
+  background-color: rgba(14, 13, 13, 0.623);
+}
+i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 13px;
+  margin-left: 13px;
+}
+.in-pwdus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lock-ic .in-pwdus input {
+  margin-left: 15px;
+  background-color: transparent;
+  padding-top: 2px;
+  border: none;
+  color: white;
+  outline: none;
+  width: 230px;
+}
+.lock-ic:nth-child(1) {
+  margin-top: 2vh;
+}
+.lock-ic:nth-child(2) {
+  margin-top: 3vh;
+}
+.log-in a button {
+  padding: 0 130px;
+  height: 7vh;
+  border-radius: 2rem;
+  border: none;
+  margin-top: 5vh;
+  cursor: pointer;
+}
+button {
+  background-color: white;
+}
+button:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+.fot {
+  display: flex;
+  color: white;
+  gap: 40px;
+  margin-top: 2vh;
+}
+.left {
+  display: flex;
+}
+.right a {
+  color: rgb(255, 255, 255);
+}
