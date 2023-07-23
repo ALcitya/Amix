@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 0.7rem;
+  background-color: darkgoldenrod;
+}
+.left img {
+  width: 40px;
+  height: 40px;
+}
+.mid ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mid ul li {
+  list-style-type: none;
+  margin: 0 15px;
+}
+.mid ul li a {
+  text-decoration: none;
+  color: white;
+}
+.mid ul li a:hover {
+  border-bottom: 2px white solid;
+}
+input {
+  padding: 4px 10px;
+  outline: none;
+  border-radius: 0.4rem;
+  border: none;
+}
+button {
+  padding: 4px 10px;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: white;
+}
+button:hover {
+  background-color: brown;
+  color: white;
+}
